@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+html {
+}
+
+div.content {
+  display: flex;
+}
+
+div.content.header {
+  align-items: center;
+  height: 64px;
+  background-color: white;
+  margin: 0px 24px;
+}
+
+div.logo.header {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 32px;
+}
+
+div.logo.header span {
+  font-family: "Roboto", sans-serif;
+}
+
+span#colmar {
+  font-weight: 500;
+  color: #585858;
+}
+
+span#academy {
+  font-weight: 300;
+  color: grey;
+}
+
+nav span.margin {
+  margin-right: 16px;
+}
+
+
+div.content.section1 {
+  background-color: grey;
+}
+
+div.content.section1 div.img.section1 {
+  width: 60%;
+  height: auto;
+  margin: 24px 32px;
+}
+
+div.content.section1 div.img.section1 img{
+  height: auto;
+  width: 100%;
+}
